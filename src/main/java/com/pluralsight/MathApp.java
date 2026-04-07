@@ -23,5 +23,12 @@ public class MathApp {
 
         System.out.println("The area of the circle with radius is " + area + ".");
 
+        // Question 4
+
+        double squareRoot = 5.0;
+        double result = Math.sqrt(squareRoot);
+
+        System.out.println("The square root of 5.0 is " + result + ".");
+
     }
 }
