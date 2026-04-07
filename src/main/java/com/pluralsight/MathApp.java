@@ -45,5 +45,10 @@ public class MathApp {
 
         System.out.println("The absolute value of -3.8 is " + abValue + ".");
 
+        //Question 7
+        double randomNumbers = Math.random();
+
+        System.out.println("Here is a random number! " + randomNumbers);
+
     }
 }
