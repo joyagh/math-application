@@ -30,5 +30,14 @@ public class MathApp {
 
         System.out.println("The square root of 5.0 is " + result + ".");
 
+        // Question 5
+
+        double x1 = 5, y1 = 10;
+        double x2 = 85, y2 = 50;
+
+        double distance = Math.hypot(x2- x1 , y2 - y1);
+
+        System.out.println("The distance between the two points is " + distance + ".");
+
     }
 }
