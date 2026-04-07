@@ -9,5 +9,13 @@ public class MathApp {
 
         System.out.println("The highest salary is " + highestSalary + ".");
 
+        //Question 2
+        double carPrice = 52000;
+        double truckPrice = 90000;
+
+        double lowestPrice = Math.min(carPrice, truckPrice);
+
+        System.out.println("The lowest price is " + lowestPrice + ".");
+
     }
 }
