@@ -39,5 +39,11 @@ public class MathApp {
 
         System.out.println("The distance between the two points is " + distance + ".");
 
+        // Question 6
+        double value = -3.8;
+        double abValue = Math.abs(value);
+
+        System.out.println("The absolute value of -3.8 is " + abValue + ".");
+
     }
 }
