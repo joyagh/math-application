@@ -50,5 +50,11 @@ public class MathApp {
 
         System.out.println("Here is a random number! " + randomNumbers);
 
+        // Question 8
+        int days = 24;
+        int minutes = days * 1440;
+
+        System.out.println("There are " + minutes + " in 24 days!");
+
     }
 }
